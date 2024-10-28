@@ -51,7 +51,7 @@ else:
 
 # write script below this line
 
-c_out = c_in
+c_out = n_filt
 h_out = (h_in + 2*p - h_filt)/s + 1
 w_out = (w_in + 2*p - w_filt)/s + 1
 
